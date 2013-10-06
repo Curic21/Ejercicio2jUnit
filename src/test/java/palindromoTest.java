@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 import com.mycompany.ejercicio02junit.palindromo;
 import org.junit.After;
@@ -13,7 +10,8 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Administrador
+ * @author Jordi Eslava Barrera
+ * @version 1.00
  */
 public class palindromoTest {
 
@@ -35,11 +33,7 @@ public class palindromoTest {
     @After
     public void tearDown() {
     }
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+    
 
     @Test
     public void testJunit() {
